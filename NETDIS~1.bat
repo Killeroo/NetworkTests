@@ -13,6 +13,7 @@ goto:eof
 :SubExecute
 title NetDisplay
 mode con: lines=24 cols=100
-cls & @Powershell.exe -File .\NETDIS~1.ps1
+cls
+@Powershell.exe -File .\NETDIS~1.ps1
 goto SubExecute
 goto:eof
