@@ -11,6 +11,5 @@ goto:eof
 
 :subExecute
 mode con: lines= cols=70
-REM Change name for SED prep
-cls & @Powershell.exe -File .\IPRanger.ps1
+cls & @Powershell.exe -File .\IPRANG~1.ps1
 goto:eof
