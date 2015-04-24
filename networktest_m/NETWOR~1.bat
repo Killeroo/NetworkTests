@@ -169,7 +169,9 @@ echo [9] Repair                                                   IPv6: %Display
 echo [10] Settings                                                 
 echo [11] Logs
 echo [12] Exit
-echo [netdisplay] Network Statistical Display                            
+echo [netdisplay] Network Statistical Display
+echo [netRanger] Ping Scanner Utility
+echo [netLooper] Speed Ping Utility
 set MainMenuPass=0
 set /p choice1=Option: 
 if %choice1% equ 1 goto Opt1Menu
@@ -187,6 +189,8 @@ if %choice1% equ 12 exit
 if %choice1%==admin goto Admin
 if %choice1%==changelog goto ChangeLog
 if %choice1%==netdisplay start NETDIS~1.bat & goto SubMainMenu
+if %choice1%==netranger start INSTAN~1.bat & goto SubMainMenu
+if %choice1%==netlooper start PINGLO~1.bat & goto SubMainMenu
 if %choice1%==hackermode goto HACKERMODZ
 if %choice1% gtr 12 set Errorlvl=1 & call :Error & goto SubMainMenu
 goto:eof
