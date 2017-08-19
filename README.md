@@ -1,12 +1,27 @@
-NetworkTest V3.1
-=================
+# NetworkTests
 
-A small suite of network tools and tests written in cmd/batch and powershell.
+[![version](https://img.shields.io/badge/version-3.1-green.svg)]() ![maintained](https://img.shields.io/maintenance/no/2017.svg)
 
-Content:
-- [CMD.BAT] NetworkTest - Core and underlying Batch script, all other scripts are initiated from here
-- [CMD.BAT] ConnectionPing - Simple colour ping script
-- [POWERSHELL.PS1] NetDisplay - A powershell script that displays, in a simple colourful format, the statuses of a computers network components and connections
-- [POWERSHELL.PS1] NetRanger - A small script built using core components from PingLooper, it is designed to scan for IP address on a specified network segment
-- [POWERSHELL.PS1] NetLooper - A script designed to test the connection between computers and servers by using accelerated ping sending from multiple console instances
-- [POWERSHELL.PS1] SystemShell - Incomplete.
+A small suite of network tools and tests written in Batch and Powershell.
+
+***
+
+![alt text](Screenshots/readme_screenshot1.png)
+
+# Included Scripts:
+- *NetworkTest* - Core and underlying Batch script, all other scripts are initiated from here
+- *ConnectionPing* - Simple colour ping script
+- *NetDisplay* - A powershell script that displays, in a simple colourful format, the statuses of a computers network components and connections
+- *NetRanger* - A small script built using core components from PingLooper, it is designed to scan for IP address on a specified network segment
+- *NetLooper* - A script designed to test the connection between computers and servers by using accelerated ping sending from multiple console instances
+- *SystemShell* - Incomplete.
+
+# Screenshots
+
+![](Screenshots/readme_screenshot2.png)
+![](Screenshots/readme_screenshot3.png)
+![](Screenshots/readme_screenshot4.png)
+![](Screenshots/readme_screenshot5.png)
+![](Screenshots/readme_screenshot6.png)
+![](Screenshots/readme_screenshot7.png)
+![](Screenshots/readme_screenshot8.png)
