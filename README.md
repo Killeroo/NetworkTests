@@ -1,6 +1,6 @@
 # NetworkTests
 
-[![version](https://img.shields.io/badge/version-3.1-brightgreen.svg)]() ![maintained](https://img.shields.io/maintenance/no/2014.svg)
+[![version](https://img.shields.io/badge/version-3.1-brightgreen.svg)]() ![maintained](https://img.shields.io/maintenance/no/2015.svg)
 
 A small suite of network tools and tests written in Batch and Powershell.
 
